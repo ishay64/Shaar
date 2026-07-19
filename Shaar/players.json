@@ -1,0 +1,2010 @@
+[
+  {
+    "name": "רועי משפתי",
+    "associated_club": "מכבי תל אביב",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 33,
+    "jersey_number": 90
+  },
+  {
+    "name": "אופק מליקה",
+    "associated_club": "מכבי תל אביב",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 21,
+    "jersey_number": 33
+  },
+  {
+    "name": "שלמה רז",
+    "associated_club": "מכבי תל אביב",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 26,
+    "jersey_number": 13
+  },
+  {
+    "name": "טייריס אסאנטה",
+    "associated_club": "מכבי תל אביב",
+    "position": "הגנה",
+    "country_of_origin": "הולנד",
+    "age": 24,
+    "jersey_number": 6
+  },
+  {
+    "name": "נמניה סטואיץ'",
+    "associated_club": "מכבי תל אביב",
+    "position": "הגנה",
+    "country_of_origin": "סרביה",
+    "age": 28,
+    "jersey_number": 18
+  },
+  {
+    "name": "עידן נחמיאס",
+    "associated_club": "מכבי תל אביב",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 29,
+    "jersey_number": 5
+  },
+  {
+    "name": "שגיב יחזקאל",
+    "associated_club": "מכבי תל אביב",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 31,
+    "jersey_number": 28
+  },
+  {
+    "name": "אופיר דוידזאדה",
+    "associated_club": "מכבי תל אביב",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 35,
+    "jersey_number": 27
+  },
+  {
+    "name": "רוי רביבו",
+    "associated_club": "מכבי תל אביב",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 23,
+    "jersey_number": 3
+  },
+  {
+    "name": "אבישי כהן",
+    "associated_club": "מכבי תל אביב",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 31,
+    "jersey_number": 2
+  },
+  {
+    "name": "דור פרץ",
+    "associated_club": "מכבי תל אביב",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 31,
+    "jersey_number": 42
+  },
+  {
+    "name": "גבי קניקובסקי",
+    "associated_club": "מכבי תל אביב",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 28,
+    "jersey_number": 16
+  },
+  {
+    "name": "יורו ואן אובריים",
+    "associated_club": "מכבי תל אביב",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 32,
+    "jersey_number": 14
+  },
+  {
+    "name": "איסוף סיסוקו",
+    "associated_club": "מכבי תל אביב",
+    "position": "קישור",
+    "country_of_origin": "מאלי",
+    "age": 24,
+    "jersey_number": 26
+  },
+  {
+    "name": "עידו שחר",
+    "associated_club": "מכבי תל אביב",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 24,
+    "jersey_number": 36
+  },
+  {
+    "name": "ערן זהבי",
+    "associated_club": "מכבי תל אביב",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 38,
+    "jersey_number": 7
+  },
+  {
+    "name": "אושר דוידה",
+    "associated_club": "מכבי תל אביב",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 77
+  },
+  {
+    "name": "הישאם לאיוס",
+    "associated_club": "מכבי תל אביב",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 11
+  },
+  {
+    "name": "אלעד מדמון",
+    "associated_club": "מכבי תל אביב",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 22,
+    "jersey_number": 9
+  },
+  {
+    "name": "דור תורג'מן",
+    "associated_club": "מכבי תל אביב",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 22,
+    "jersey_number": 17
+  },
+  {
+    "name": "ווסלי פטאצ'י",
+    "associated_club": "מכבי תל אביב",
+    "position": "התקפה",
+    "country_of_origin": "ברזיל",
+    "age": 22,
+    "jersey_number": 15
+  },
+  {
+    "name": "יונס מלדה",
+    "associated_club": "מכבי תל אביב",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 26,
+    "jersey_number": 19
+  },
+  {
+    "name": "שריף כיוף",
+    "associated_club": "מכבי חיפה",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 40
+  },
+  {
+    "name": "נתן גלאק",
+    "associated_club": "מכבי חיפה",
+    "position": "שוער",
+    "country_of_origin": "ארצות הברית",
+    "age": 24,
+    "jersey_number": 22
+  },
+  {
+    "name": "שון גולדברג",
+    "associated_club": "מכבי חיפה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 31,
+    "jersey_number": 3
+  },
+  {
+    "name": "פדראו",
+    "associated_club": "מכבי חיפה",
+    "position": "הגנה",
+    "country_of_origin": "ברזיל",
+    "age": 29,
+    "jersey_number": 44
+  },
+  {
+    "name": "אולכסנדר סירוטה",
+    "associated_club": "מכבי חיפה",
+    "position": "הגנה",
+    "country_of_origin": "אוקראינה",
+    "age": 26,
+    "jersey_number": 24
+  },
+  {
+    "name": "רמי גרשון",
+    "associated_club": "מכבי חיפה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 37,
+    "jersey_number": 55
+  },
+  {
+    "name": "עיליי פיינגולד",
+    "associated_club": "מכבי חיפה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 22,
+    "jersey_number": 2
+  },
+  {
+    "name": "ויטאל אנסימבה",
+    "associated_club": "מכבי חיפה",
+    "position": "הגנה",
+    "country_of_origin": "הרפובליקה הדמוקרטית של קונגו",
+    "age": 33,
+    "jersey_number": 14
+  },
+  {
+    "name": "רועי אלימלך",
+    "associated_club": "מכבי חיפה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 23,
+    "jersey_number": 27
+  },
+  {
+    "name": "עלי מוחמד",
+    "associated_club": "מכבי חיפה",
+    "position": "קישור",
+    "country_of_origin": "ניז'ר",
+    "age": 30,
+    "jersey_number": 4
+  },
+  {
+    "name": "מחמוד ג'אבר",
+    "associated_club": "מכבי חיפה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 26,
+    "jersey_number": 24
+  },
+  {
+    "name": "איתן אזולאי",
+    "associated_club": "מכבי חיפה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 24,
+    "jersey_number": 8
+  },
+  {
+    "name": "ליאור רפאלוב",
+    "associated_club": "מכבי חיפה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 40,
+    "jersey_number": 26
+  },
+  {
+    "name": "גדי קינדה",
+    "associated_club": "מכבי חיפה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 32,
+    "jersey_number": 10
+  },
+  {
+    "name": "קסנדר סברינה",
+    "associated_club": "מכבי חיפה",
+    "position": "קישור",
+    "country_of_origin": "קוראסאו",
+    "age": 27,
+    "jersey_number": 7
+  },
+  {
+    "name": "דיא סבע",
+    "associated_club": "מכבי חיפה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 33,
+    "jersey_number": 91
+  },
+  {
+    "name": "דולב חזיזה",
+    "associated_club": "מכבי חיפה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 30,
+    "jersey_number": 8
+  },
+  {
+    "name": "דין דוד",
+    "associated_club": "מכבי חיפה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 30,
+    "jersey_number": 21
+  },
+  {
+    "name": "מתיאס נהואל",
+    "associated_club": "מכבי חיפה",
+    "position": "התקפה",
+    "country_of_origin": "ספרד",
+    "age": 29,
+    "jersey_number": 11
+  },
+  {
+    "name": "איאד חלאילי",
+    "associated_club": "מכבי חיפה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 20,
+    "jersey_number": 18
+  },
+  {
+    "name": "בינימין אמגה",
+    "associated_club": "מכבי חיפה",
+    "position": "התקפה",
+    "country_of_origin": "טוגו",
+    "age": 21,
+    "jersey_number": 9
+  },
+  {
+    "name": "מיגל סילבה",
+    "associated_club": "בית\"ר ירושלים",
+    "position": "שוער",
+    "country_of_origin": "פורטוגל",
+    "age": 31,
+    "jersey_number": 1
+  },
+  {
+    "name": "רז כרמי",
+    "associated_club": "בית\"ר ירושלים",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 30,
+    "jersey_number": 55
+  },
+  {
+    "name": "אורי דהן",
+    "associated_club": "בית\"ר ירושלים",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 26,
+    "jersey_number": 4
+  },
+  {
+    "name": "ז'אן מרסלן",
+    "associated_club": "בית\"ר ירושלים",
+    "position": "הגנה",
+    "country_of_origin": "צרפת",
+    "age": 26,
+    "jersey_number": 23
+  },
+  {
+    "name": "גיל כהן",
+    "associated_club": "בית\"ר ירושלים",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 3
+  },
+  {
+    "name": "גריגורי מורוזוב",
+    "associated_club": "בית\"ר ירושלים",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 32,
+    "jersey_number": 2
+  },
+  {
+    "name": "ליאור קסה",
+    "associated_club": "בית\"ר ירושלים",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 20,
+    "jersey_number": 12
+  },
+  {
+    "name": "ליאל דרעי",
+    "associated_club": "בית\"ר ירושלים",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 23,
+    "jersey_number": 21
+  },
+  {
+    "name": "עדי יונה",
+    "associated_club": "בית\"ר ירושלים",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 22,
+    "jersey_number": 16
+  },
+  {
+    "name": "דור מיכה",
+    "associated_club": "בית\"ר ירושלים",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 34,
+    "jersey_number": 15
+  },
+  {
+    "name": "איסמעילה סורו",
+    "associated_club": "בית\"ר ירושלים",
+    "position": "קישור",
+    "country_of_origin": "חוף השנהב",
+    "age": 28,
+    "jersey_number": 8
+  },
+  {
+    "name": "יארדן שועה",
+    "associated_club": "בית\"ר ירושלים",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 27,
+    "jersey_number": 7
+  },
+  {
+    "name": "עומר אצילי",
+    "associated_club": "בית\"ר ירושלים",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 32,
+    "jersey_number": 77
+  },
+  {
+    "name": "טימוטי מוזי",
+    "associated_club": "בית\"ר ירושלים",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 17
+  },
+  {
+    "name": "פטריק טוומאסי",
+    "associated_club": "בית\"ר ירושלים",
+    "position": "התקפה",
+    "country_of_origin": "גאנה",
+    "age": 32,
+    "jersey_number": 9
+  },
+  {
+    "name": "מיירון ג'ורג'",
+    "associated_club": "בית\"ר ירושלים",
+    "position": "התקפה",
+    "country_of_origin": "קוסטה ריקה",
+    "age": 32,
+    "jersey_number": 11
+  },
+  {
+    "name": "סילבה קאני",
+    "associated_club": "בית\"ר ירושלים",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 23,
+    "jersey_number": 19
+  },
+  {
+    "name": "נהוראי דבוש",
+    "associated_club": "בית\"ר ירושלים",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 22,
+    "jersey_number": 28
+  },
+  {
+    "name": "ניב אליאסי",
+    "associated_club": "הפועל באר שבע",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 24,
+    "jersey_number": 1
+  },
+  {
+    "name": "בן גורדין",
+    "associated_club": "הפועל באר שבע",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 23,
+    "jersey_number": 23
+  },
+  {
+    "name": "מיגל ויטור",
+    "associated_club": "הפועל באר שבע",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 36,
+    "jersey_number": 4
+  },
+  {
+    "name": "אור בלוריאן",
+    "associated_club": "הפועל באר שבע",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 26,
+    "jersey_number": 5
+  },
+  {
+    "name": "מתן בלטקסה",
+    "associated_club": "הפועל באר שבע",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 30,
+    "jersey_number": 3
+  },
+  {
+    "name": "הלדר לופס",
+    "associated_club": "הפועל באר שבע",
+    "position": "הגנה",
+    "country_of_origin": "פורטוגל",
+    "age": 37,
+    "jersey_number": 22
+  },
+  {
+    "name": "גיא מזרחי",
+    "associated_club": "הפועל באר שבע",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 2
+  },
+  {
+    "name": "איתן טיבי",
+    "associated_club": "הפועל באר שבע",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 38,
+    "jersey_number": 18
+  },
+  {
+    "name": "רועי גורדנה",
+    "associated_club": "הפועל באר שבע",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 36,
+    "jersey_number": 8
+  },
+  {
+    "name": "קינגס קאנגווה",
+    "associated_club": "הפועל באר שבע",
+    "position": "קישור",
+    "country_of_origin": "זמביה",
+    "age": 27,
+    "jersey_number": 17
+  },
+  {
+    "name": "דן ביטון",
+    "associated_club": "הפועל באר שבע",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 30,
+    "jersey_number": 10
+  },
+  {
+    "name": "לוקאס ונטורה",
+    "associated_club": "הפועל באר שבע",
+    "position": "קישור",
+    "country_of_origin": "ברזיל",
+    "age": 28,
+    "jersey_number": 6
+  },
+  {
+    "name": "יוני סטויאנוב",
+    "associated_club": "הפועל באר שבע",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 7
+  },
+  {
+    "name": "אליאל פרץ",
+    "associated_club": "הפועל באר שבע",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 29,
+    "jersey_number": 24
+  },
+  {
+    "name": "אמיר גנאח",
+    "associated_club": "הפועל באר שבע",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 22,
+    "jersey_number": 11
+  },
+  {
+    "name": "רותם חטואל",
+    "associated_club": "הפועל באר שבע",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 28,
+    "jersey_number": 12
+  },
+  {
+    "name": "אלון תורג'מן",
+    "associated_club": "הפועל באר שבע",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 34,
+    "jersey_number": 9
+  },
+  {
+    "name": "זאהי אחמד",
+    "associated_club": "הפועל באר שבע",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 24,
+    "jersey_number": 19
+  },
+  {
+    "name": "ארנולד גריטה",
+    "associated_club": "הפועל באר שבע",
+    "position": "התקפה",
+    "country_of_origin": "קמרון",
+    "age": 31,
+    "jersey_number": 77
+  },
+  {
+    "name": "פול גריטה",
+    "associated_club": "הפועל באר שבע",
+    "position": "התקפה",
+    "country_of_origin": "זר",
+    "age": 24,
+    "jersey_number": 14
+  },
+  {
+    "name": "רובי לבקוביץ'",
+    "associated_club": "הפועל תל אביב",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 37,
+    "jersey_number": 1
+  },
+  {
+    "name": "עידו שרון",
+    "associated_club": "הפועל תל אביב",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 24,
+    "jersey_number": 33
+  },
+  {
+    "name": "גוראן אנטוניץ'",
+    "associated_club": "הפועל תל אביב",
+    "position": "הגנה",
+    "country_of_origin": "סרביה",
+    "age": 35,
+    "jersey_number": 5
+  },
+  {
+    "name": "אור בלוריאן",
+    "associated_club": "הפועל תל אביב",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 26,
+    "jersey_number": 4
+  },
+  {
+    "name": "זיו מורגן",
+    "associated_club": "הפועל תל אביב",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 26,
+    "jersey_number": 16
+  },
+  {
+    "name": "רוי הרמן",
+    "associated_club": "הפועל תל אביב",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 26,
+    "jersey_number": 2
+  },
+  {
+    "name": "יאסו קאבניארגו",
+    "associated_club": "הפועל תל אביב",
+    "position": "הגנה",
+    "country_of_origin": "ונצואלה",
+    "age": 24,
+    "jersey_number": 3
+  },
+  {
+    "name": "טל ארצ'ל",
+    "associated_club": "הפועל תל אביב",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 23,
+    "jersey_number": 23
+  },
+  {
+    "name": "דן איינבינדר",
+    "associated_club": "הפועל תל אביב",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 37,
+    "jersey_number": 6
+  },
+  {
+    "name": "אל ים קנצפולסקי",
+    "associated_club": "הפועל תל אביב",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 22,
+    "jersey_number": 21
+  },
+  {
+    "name": "מאוויס צ'יבוטה",
+    "associated_club": "הפועל תל אביב",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 30,
+    "jersey_number": 13
+  },
+  {
+    "name": "רן בנימין",
+    "associated_club": "הפועל תל אביב",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 22,
+    "jersey_number": 8
+  },
+  {
+    "name": "אליאן רוחאנה",
+    "associated_club": "הפועל תל אביב",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 29,
+    "jersey_number": 10
+  },
+  {
+    "name": "סתיו טוריאל",
+    "associated_club": "הפועל תל אביב",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 7
+  },
+  {
+    "name": "עמרי אלטמן",
+    "associated_club": "הפועל תל אביב",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 32,
+    "jersey_number": 11
+  },
+  {
+    "name": "רוי קורין",
+    "associated_club": "הפועל תל אביב",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 23,
+    "jersey_number": 17
+  },
+  {
+    "name": "מילאן מקאריץ'",
+    "associated_club": "הפועל תל אביב",
+    "position": "התקפה",
+    "country_of_origin": "סרביה",
+    "age": 30,
+    "jersey_number": 9
+  },
+  {
+    "name": "שגיא גניס",
+    "associated_club": "הפועל תל אביב",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 22,
+    "jersey_number": 27
+  },
+  {
+    "name": "יואב ג'ראפי",
+    "associated_club": "הפועל חיפה",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 32,
+    "jersey_number": 1
+  },
+  {
+    "name": "ניב אנטמן",
+    "associated_club": "הפועל חיפה",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 33,
+    "jersey_number": 81
+  },
+  {
+    "name": "פרננד מייאמבו",
+    "associated_club": "הפועל חיפה",
+    "position": "הגנה",
+    "country_of_origin": "הרפובליקה של קונגו",
+    "age": 28,
+    "jersey_number": 5
+  },
+  {
+    "name": "ג'ורג' דיבה",
+    "associated_club": "הפועל חיפה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 27,
+    "jersey_number": 22
+  },
+  {
+    "name": "דור מלול",
+    "associated_club": "הפועל חיפה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 37,
+    "jersey_number": 4
+  },
+  {
+    "name": "נועם בן הרוש",
+    "associated_club": "הפועל חיפה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 21,
+    "jersey_number": 2
+  },
+  {
+    "name": "אורן ביטון",
+    "associated_club": "הפועל חיפה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 31,
+    "jersey_number": 26
+  },
+  {
+    "name": "תמיר גלזר",
+    "associated_club": "הפועל חיפה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 26,
+    "jersey_number": 3
+  },
+  {
+    "name": "לואי טאהא",
+    "associated_club": "הפועל חיפה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 37,
+    "jersey_number": 24
+  },
+  {
+    "name": "נאור סבג",
+    "associated_club": "הפועל חיפה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 33,
+    "jersey_number": 19
+  },
+  {
+    "name": "ליראן סרדל",
+    "associated_club": "הפועל חיפה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 32,
+    "jersey_number": 7
+  },
+  {
+    "name": "איתמר נוי",
+    "associated_club": "הפועל חיפה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 14
+  },
+  {
+    "name": "יוני סטויאנוב",
+    "associated_club": "הפועל חיפה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 10
+  },
+  {
+    "name": "בר לין",
+    "associated_club": "הפועל חיפה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 21,
+    "jersey_number": 20
+  },
+  {
+    "name": "גיא מלמד",
+    "associated_club": "הפועל חיפה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 33,
+    "jersey_number": 9
+  },
+  {
+    "name": "דמיטרי אנטילבסקי",
+    "associated_club": "הפועל חיפה",
+    "position": "התקפה",
+    "country_of_origin": "בלארוס",
+    "age": 29,
+    "jersey_number": 11
+  },
+  {
+    "name": "עודד צ'קול",
+    "associated_club": "הפועל חיפה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 26,
+    "jersey_number": 16
+  },
+  {
+    "name": "איתי בוגנים",
+    "associated_club": "הפועל חיפה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 17
+  },
+  {
+    "name": "עומר ניראון",
+    "associated_club": "מכבי נתניה",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 1
+  },
+  {
+    "name": "תומר צרפתי",
+    "associated_club": "מכבי נתניה",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 23,
+    "jersey_number": 23
+  },
+  {
+    "name": "כרם ג'אבר",
+    "associated_club": "מכבי נתניה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 2
+  },
+  {
+    "name": "ניקיטה סטויאנוב",
+    "associated_club": "מכבי נתניה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 21,
+    "jersey_number": 4
+  },
+  {
+    "name": "סבה חבדגיאני",
+    "associated_club": "מכבי נתניה",
+    "position": "הגנה",
+    "country_of_origin": "גיאורגיה",
+    "age": 23,
+    "jersey_number": 5
+  },
+  {
+    "name": "יאן קוליץ'",
+    "associated_club": "מכבי נתניה",
+    "position": "הגנה",
+    "country_of_origin": "צ'כיה",
+    "age": 27,
+    "jersey_number": 6
+  },
+  {
+    "name": "רותם קלר",
+    "associated_club": "מכבי נתניה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 24,
+    "jersey_number": 12
+  },
+  {
+    "name": "איתי בן שבת",
+    "associated_club": "מכבי נתניה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 24,
+    "jersey_number": 44
+  },
+  {
+    "name": "אביב אברהם",
+    "associated_club": "מכבי נתניה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 30,
+    "jersey_number": 7
+  },
+  {
+    "name": "סאהר תאג'י",
+    "associated_club": "מכבי נתניה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 8
+  },
+  {
+    "name": "בר כהן",
+    "associated_club": "מכבי נתניה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 10
+  },
+  {
+    "name": "מקסים פלקושצ'נקו",
+    "associated_club": "מכבי נתניה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 30,
+    "jersey_number": 80
+  },
+  {
+    "name": "לואי חילף",
+    "associated_club": "מכבי נתניה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 26,
+    "jersey_number": 16
+  },
+  {
+    "name": "איתמר שבירו",
+    "associated_club": "מכבי נתניה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 28,
+    "jersey_number": 9
+  },
+  {
+    "name": "איגור זלאטנוביץ'",
+    "associated_club": "מכבי נתניה",
+    "position": "התקפה",
+    "country_of_origin": "סרביה",
+    "age": 28,
+    "jersey_number": 11
+  },
+  {
+    "name": "עוז בילן",
+    "associated_club": "מכבי נתניה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 17
+  },
+  {
+    "name": "פרדי ורגאס",
+    "associated_club": "מכבי נתניה",
+    "position": "התקפה",
+    "country_of_origin": "ונצואלה",
+    "age": 27,
+    "jersey_number": 77
+  },
+  {
+    "name": "עידן ברנס",
+    "associated_club": "מכבי נתניה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 22,
+    "jersey_number": 19
+  },
+  {
+    "name": "מרקו וולף",
+    "associated_club": "מכבי פתח תקווה",
+    "position": "שוער",
+    "country_of_origin": "ארגנטינה",
+    "age": 29,
+    "jersey_number": 34
+  },
+  {
+    "name": "תומר ליטבינוב",
+    "associated_club": "מכבי פתח תקווה",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 1
+  },
+  {
+    "name": "אנדראס קארו",
+    "associated_club": "מכבי פתח תקווה",
+    "position": "הגנה",
+    "country_of_origin": "קפריסין",
+    "age": 29,
+    "jersey_number": 4
+  },
+  {
+    "name": "עוביידה חטאב",
+    "associated_club": "מכבי פתח תקווה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 33,
+    "jersey_number": 5
+  },
+  {
+    "name": "גל מעתוק",
+    "associated_club": "מכבי פתח תקווה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 24,
+    "jersey_number": 2
+  },
+  {
+    "name": "גיא דזנט",
+    "associated_club": "מכבי פתח תקווה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 21,
+    "jersey_number": 22
+  },
+  {
+    "name": "ירדן כהן",
+    "associated_club": "מכבי פתח תקווה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 29,
+    "jersey_number": 16
+  },
+  {
+    "name": "אביב סלם",
+    "associated_club": "מכבי פתח תקווה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 26,
+    "jersey_number": 3
+  },
+  {
+    "name": "תמיר גלזר",
+    "associated_club": "מכבי פתח תקווה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 26,
+    "jersey_number": 6
+  },
+  {
+    "name": "ניב יהושע",
+    "associated_club": "מכבי פתח תקווה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 21,
+    "jersey_number": 8
+  },
+  {
+    "name": "אנס מחאמיד",
+    "associated_club": "מכבי פתח תקווה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 27,
+    "jersey_number": 10
+  },
+  {
+    "name": "עידן ורד",
+    "associated_club": "מכבי פתח תקווה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 37,
+    "jersey_number": 11
+  },
+  {
+    "name": "לירן חזן",
+    "associated_club": "מכבי פתח תקווה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 20,
+    "jersey_number": 14
+  },
+  {
+    "name": "אילייה שקורין",
+    "associated_club": "מכבי פתח תקווה",
+    "position": "התקפה",
+    "country_of_origin": "בלארוס",
+    "age": 26,
+    "jersey_number": 9
+  },
+  {
+    "name": "אור רויזמן",
+    "associated_club": "מכבי פתח תקווה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 24,
+    "jersey_number": 7
+  },
+  {
+    "name": "לוקה שטור",
+    "associated_club": "מכבי פתח תקווה",
+    "position": "התקפה",
+    "country_of_origin": "סלובניה",
+    "age": 28,
+    "jersey_number": 19
+  },
+  {
+    "name": "אמיר אלטורי",
+    "associated_club": "מכבי פתח תקווה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 22,
+    "jersey_number": 23
+  },
+  {
+    "name": "אסף צור",
+    "associated_club": "עירוני קרית שמונה",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 27,
+    "jersey_number": 1
+  },
+  {
+    "name": "נדב זמיר",
+    "associated_club": "עירוני קרית שמונה",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 22
+  },
+  {
+    "name": "שי בן דוד",
+    "associated_club": "עירוני קרית שמונה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 28,
+    "jersey_number": 4
+  },
+  {
+    "name": "עאיד חבשי",
+    "associated_club": "עירוני קרית שמונה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 31,
+    "jersey_number": 5
+  },
+  {
+    "name": "נעם כהן",
+    "associated_club": "עירוני קרית שמונה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 27,
+    "jersey_number": 2
+  },
+  {
+    "name": "דודי טויטו",
+    "associated_club": "עירוני קרית שמונה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 32,
+    "jersey_number": 16
+  },
+  {
+    "name": "סקאלה כריסטיאן",
+    "associated_club": "עירוני קרית שמונה",
+    "position": "הגנה",
+    "country_of_origin": "ארגנטינה",
+    "age": 26,
+    "jersey_number": 3
+  },
+  {
+    "name": "אופיר בנבנישתי",
+    "associated_club": "עירוני קרית שמונה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 24
+  },
+  {
+    "name": "סקו בנגורה",
+    "associated_club": "עירוני קרית שמונה",
+    "position": "קישור",
+    "country_of_origin": "גינאה",
+    "age": 24,
+    "jersey_number": 6
+  },
+  {
+    "name": "אריאל שרצקי",
+    "associated_club": "עירוני קרית שמונה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 24,
+    "jersey_number": 8
+  },
+  {
+    "name": "ליאור קסה",
+    "associated_club": "עירוני קרית שמונה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 20,
+    "jersey_number": 10
+  },
+  {
+    "name": "נדב נידם",
+    "associated_club": "עירוני קרית שמונה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 18
+  },
+  {
+    "name": "ז'ארדל רודריגז",
+    "associated_club": "עירוני קרית שמונה",
+    "position": "התקפה",
+    "country_of_origin": "גינאה ביסאו",
+    "age": 28,
+    "jersey_number": 9
+  },
+  {
+    "name": "יאיר מרדכי",
+    "associated_club": "עירוני קרית שמונה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 23,
+    "jersey_number": 11
+  },
+  {
+    "name": "מוחמד אבו רומי",
+    "associated_club": "עירוני קרית שמונה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 22,
+    "jersey_number": 7
+  },
+  {
+    "name": "פטר אוניקאצ'י",
+    "associated_club": "עירוני קרית שמונה",
+    "position": "התקפה",
+    "country_of_origin": "ניגריה",
+    "age": 32,
+    "jersey_number": 19
+  },
+  {
+    "name": "רועי זיקרי",
+    "associated_club": "עירוני קרית שמונה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 33,
+    "jersey_number": 77
+  },
+  {
+    "name": "מוחמד אבו ניל",
+    "associated_club": "בני סכנין",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 22
+  },
+  {
+    "name": "עבד יאסין",
+    "associated_club": "בני סכנין",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 23,
+    "jersey_number": 1
+  },
+  {
+    "name": "מארון גנטוס",
+    "associated_club": "בני סכנין",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 28,
+    "jersey_number": 4
+  },
+  {
+    "name": "איתי בן חמו",
+    "associated_club": "בני סכנין",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 24,
+    "jersey_number": 5
+  },
+  {
+    "name": "עובדיה דרוויש",
+    "associated_club": "בני סכנין",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 27,
+    "jersey_number": 2
+  },
+  {
+    "name": "נפתלי בלאי",
+    "associated_club": "בני סכנין",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 29,
+    "jersey_number": 16
+  },
+  {
+    "name": "איאד אבו עביד",
+    "associated_club": "בני סכנין",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 31,
+    "jersey_number": 3
+  },
+  {
+    "name": "סטפן אומאונגה",
+    "associated_club": "בני סכנין",
+    "position": "קישור",
+    "country_of_origin": "בלגיה",
+    "age": 30,
+    "jersey_number": 6
+  },
+  {
+    "name": "מתנאל טדסה",
+    "associated_club": "בני סכנין",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 27,
+    "jersey_number": 8
+  },
+  {
+    "name": "איליי אלמדני",
+    "associated_club": "בני סכנין",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 22,
+    "jersey_number": 10
+  },
+  {
+    "name": "ג'נדו פוקס",
+    "associated_club": "בני סכנין",
+    "position": "קישור",
+    "country_of_origin": "קמרון",
+    "age": 28,
+    "jersey_number": 15
+  },
+  {
+    "name": "עילאי אלמקייס",
+    "associated_club": "בני סכנין",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 26,
+    "jersey_number": 18
+  },
+  {
+    "name": "אניס פורת עיאש",
+    "associated_club": "בני סכנין",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 21,
+    "jersey_number": 20
+  },
+  {
+    "name": "אלכסנדר רמאלינגום",
+    "associated_club": "בני סכנין",
+    "position": "התקפה",
+    "country_of_origin": "מדגסקר",
+    "age": 33,
+    "jersey_number": 9
+  },
+  {
+    "name": "בסיל ח'ורי",
+    "associated_club": "בני סכנין",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 23,
+    "jersey_number": 7
+  },
+  {
+    "name": "קאובנייה סוטיריו",
+    "associated_club": "בני סכנין",
+    "position": "התקפה",
+    "country_of_origin": "קפריסין",
+    "age": 29,
+    "jersey_number": 11
+  },
+  {
+    "name": "דניאל אונימוכארה",
+    "associated_club": "בני סכנין",
+    "position": "התקפה",
+    "country_of_origin": "ניגריה",
+    "age": 24,
+    "jersey_number": 19
+  },
+  {
+    "name": "אריאל הרוש",
+    "associated_club": "מ.ס. אשדוד",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 38,
+    "jersey_number": 1
+  },
+  {
+    "name": "סהר חסון",
+    "associated_club": "מ.ס. אשדוד",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 30,
+    "jersey_number": 22
+  },
+  {
+    "name": "טימותי אוואני",
+    "associated_club": "מ.ס. אשדוד",
+    "position": "הגנה",
+    "country_of_origin": "אוגנדה",
+    "age": 29,
+    "jersey_number": 4
+  },
+  {
+    "name": "עומרי בן הרוש",
+    "associated_club": "מ.ס. אשדוד",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 36,
+    "jersey_number": 3
+  },
+  {
+    "name": "טום בן זקן",
+    "associated_club": "מ.ס. אשדוד",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 32,
+    "jersey_number": 15
+  },
+  {
+    "name": "שחר רוזן",
+    "associated_club": "מ.ס. אשדוד",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 23,
+    "jersey_number": 16
+  },
+  {
+    "name": "רועי לוי",
+    "associated_club": "מ.ס. אשדוד",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 26,
+    "jersey_number": 2
+  },
+  {
+    "name": "מרטין אנדזי",
+    "associated_club": "מ.ס. אשדוד",
+    "position": "קישור",
+    "country_of_origin": "קמרון",
+    "age": 23,
+    "jersey_number": 6
+  },
+  {
+    "name": "חמודי כנעאן",
+    "associated_club": "מ.ס. אשדוד",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 26,
+    "jersey_number": 10
+  },
+  {
+    "name": "אלעד שחף",
+    "associated_club": "מ.ס. אשדוד",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 28,
+    "jersey_number": 8
+  },
+  {
+    "name": "שלו הרוש",
+    "associated_club": "מ.ס. אשדוד",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 24,
+    "jersey_number": 18
+  },
+  {
+    "name": "נועם מוצ'ה",
+    "associated_club": "מ.ס. אשדוד",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 23,
+    "jersey_number": 55
+  },
+  {
+    "name": "אבנעזר ממאטו",
+    "associated_club": "מ.ס. אשדוד",
+    "position": "התקפה",
+    "country_of_origin": "גאנה",
+    "age": 27,
+    "jersey_number": 9
+  },
+  {
+    "name": "סתיו נחמני",
+    "associated_club": "מ.ס. אשדוד",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 23,
+    "jersey_number": 11
+  },
+  {
+    "name": "רביד אברג'יל",
+    "associated_club": "מ.ס. אשדוד",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 22,
+    "jersey_number": 7
+  },
+  {
+    "name": "אליהו אדקה",
+    "associated_club": "מ.ס. אשדוד",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 24,
+    "jersey_number": 19
+  },
+  {
+    "name": "אוהד לויטה",
+    "associated_club": "הפועל חדרה",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 40,
+    "jersey_number": 1
+  },
+  {
+    "name": "גיא הרמן",
+    "associated_club": "הפועל חדרה",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 26,
+    "jersey_number": 22
+  },
+  {
+    "name": "ממאדו מבודג'",
+    "associated_club": "הפועל חדרה",
+    "position": "הגנה",
+    "country_of_origin": "סנגל",
+    "age": 33,
+    "jersey_number": 5
+  },
+  {
+    "name": "עידו לוי",
+    "associated_club": "הפועל חדרה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 35,
+    "jersey_number": 4
+  },
+  {
+    "name": "דיא לבאבידי",
+    "associated_club": "הפועל חדרה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 33,
+    "jersey_number": 2
+  },
+  {
+    "name": "איציק שולמייסטר",
+    "associated_club": "הפועל חדרה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 28,
+    "jersey_number": 3
+  },
+  {
+    "name": "הראל שלום",
+    "associated_club": "הפועל חדרה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 28,
+    "jersey_number": 16
+  },
+  {
+    "name": "ליאור רוקח",
+    "associated_club": "הפועל חדרה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 22,
+    "jersey_number": 14
+  },
+  {
+    "name": "עילאי טרוסט",
+    "associated_club": "הפועל חדרה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 6
+  },
+  {
+    "name": "תמיר גלזר",
+    "associated_club": "הפועל חדרה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 26,
+    "jersey_number": 8
+  },
+  {
+    "name": "עבדולאי סיסה",
+    "associated_club": "הפועל חדרה",
+    "position": "קישור",
+    "country_of_origin": "גינאה",
+    "age": 31,
+    "jersey_number": 15
+  },
+  {
+    "name": "ידין לוגסי",
+    "associated_club": "הפועל חדרה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 27,
+    "jersey_number": 10
+  },
+  {
+    "name": "עדי תמם",
+    "associated_club": "הפועל חדרה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 24
+  },
+  {
+    "name": "ג'יימס אדניי",
+    "associated_club": "הפועל חדרה",
+    "position": "התקפה",
+    "country_of_origin": "ניגריה",
+    "age": 33,
+    "jersey_number": 9
+  },
+  {
+    "name": "גודסוויי דוניו",
+    "associated_club": "הפועל חדרה",
+    "position": "התקפה",
+    "country_of_origin": "גאנה",
+    "age": 31,
+    "jersey_number": 7
+  },
+  {
+    "name": "אלעד מדמון",
+    "associated_club": "הפועל חדרה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 22,
+    "jersey_number": 19
+  },
+  {
+    "name": "רז טוויזר",
+    "associated_club": "הפועל חדרה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 27,
+    "jersey_number": 77
+  },
+  {
+    "name": "גד עמוס",
+    "associated_club": "מכבי בני ריינה",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 36,
+    "jersey_number": 1
+  },
+  {
+    "name": "עומר נחפאווי",
+    "associated_club": "מכבי בני ריינה",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 24,
+    "jersey_number": 22
+  },
+  {
+    "name": "נמניה ליוביסבלייביץ'",
+    "associated_club": "מכבי בני ריינה",
+    "position": "הגנה",
+    "country_of_origin": "סרביה",
+    "age": 29,
+    "jersey_number": 4
+  },
+  {
+    "name": "סמביניה",
+    "associated_club": "מכבי בני ריינה",
+    "position": "הגנה",
+    "country_of_origin": "גינאה ביסאו",
+    "age": 33,
+    "jersey_number": 25
+  },
+  {
+    "name": "נאאל חוטבא",
+    "associated_club": "מכבי בני ריינה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 37,
+    "jersey_number": 2
+  },
+  {
+    "name": "עבדאללה ג'אבר",
+    "associated_club": "מכבי בני ריינה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 33,
+    "jersey_number": 3
+  },
+  {
+    "name": "רון אונגר",
+    "associated_club": "מכבי בני ריינה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 16
+  },
+  {
+    "name": "מוחמד אוסמן",
+    "associated_club": "מכבי בני ריינה",
+    "position": "קישור",
+    "country_of_origin": "ניגריה",
+    "age": 32,
+    "jersey_number": 6
+  },
+  {
+    "name": "רועי שוקרני",
+    "associated_club": "מכבי בני ריינה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 36,
+    "jersey_number": 8
+  },
+  {
+    "name": "איהאב גנאים",
+    "associated_club": "מכבי בני ריינה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 29,
+    "jersey_number": 19
+  },
+  {
+    "name": "גאיאס זאהיד",
+    "associated_club": "מכבי בני ריינה",
+    "position": "קישור",
+    "country_of_origin": "נורווגיה",
+    "age": 31,
+    "jersey_number": 10
+  },
+  {
+    "name": "סער פדידה",
+    "associated_club": "מכבי בני ריינה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 29,
+    "jersey_number": 7
+  },
+  {
+    "name": "קייס גאנם",
+    "associated_club": "מכבי בני ריינה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 28,
+    "jersey_number": 9
+  },
+  {
+    "name": "אזקיאל הנטי",
+    "associated_club": "מכבי בני ריינה",
+    "position": "התקפה",
+    "country_of_origin": "ניגריה",
+    "age": 32,
+    "jersey_number": 11
+  },
+  {
+    "name": "מוחמד שכר",
+    "associated_club": "מכבי בני ריינה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 29,
+    "jersey_number": 17
+  },
+  {
+    "name": "ליאור אינברום",
+    "associated_club": "מכבי בני ריינה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 30,
+    "jersey_number": 77
+  },
+  {
+    "name": "דניאל טננבאום",
+    "associated_club": "עירוני טבריה",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 31,
+    "jersey_number": 1
+  },
+  {
+    "name": "טל בומשטיין",
+    "associated_club": "עירוני טבריה",
+    "position": "שוער",
+    "country_of_origin": "ישראל",
+    "age": 31,
+    "jersey_number": 22
+  },
+  {
+    "name": "אונדז'יי באצ'ו",
+    "associated_club": "עירוני טבריה",
+    "position": "הגנה",
+    "country_of_origin": "צ'כיה",
+    "age": 30,
+    "jersey_number": 4
+  },
+  {
+    "name": "בן והבה",
+    "associated_club": "עירוני טבריה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 34,
+    "jersey_number": 5
+  },
+  {
+    "name": "שי קונסטנטין",
+    "associated_club": "עירוני טבריה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 30,
+    "jersey_number": 2
+  },
+  {
+    "name": "אליאל רוזנברג",
+    "associated_club": "עירוני טבריה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 27,
+    "jersey_number": 3
+  },
+  {
+    "name": "הראל שלום",
+    "associated_club": "עירוני טבריה",
+    "position": "הגנה",
+    "country_of_origin": "ישראל",
+    "age": 28,
+    "jersey_number": 16
+  },
+  {
+    "name": "יניב בריק",
+    "associated_club": "עירוני טבריה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 30,
+    "jersey_number": 6
+  },
+  {
+    "name": "פיראס אבו עקל",
+    "associated_club": "עירוני טבריה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 29,
+    "jersey_number": 8
+  },
+  {
+    "name": "סטניסלב בילנקי",
+    "associated_club": "עירוני טבריה",
+    "position": "קישור",
+    "country_of_origin": "אוקראינה",
+    "age": 27,
+    "jersey_number": 10
+  },
+  {
+    "name": "שניר שוקר",
+    "associated_club": "עירוני טבריה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 36,
+    "jersey_number": 17
+  },
+  {
+    "name": "באסל שעבאן",
+    "associated_club": "עירוני טבריה",
+    "position": "קישור",
+    "country_of_origin": "ישראל",
+    "age": 24,
+    "jersey_number": 14
+  },
+  {
+    "name": "חביב חביבו",
+    "associated_club": "עירוני טבריה",
+    "position": "התקפה",
+    "country_of_origin": "הרפובליקה המרכז-אפריקאית",
+    "age": 32,
+    "jersey_number": 9
+  },
+  {
+    "name": "והיב חביבאללה",
+    "associated_club": "עירוני טבריה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 29,
+    "jersey_number": 7
+  },
+  {
+    "name": "אחמד עאבד",
+    "associated_club": "עירוני טבריה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 36,
+    "jersey_number": 11
+  },
+  {
+    "name": "נואף בזיע",
+    "associated_club": "עירוני טבריה",
+    "position": "התקפה",
+    "country_of_origin": "ישראל",
+    "age": 25,
+    "jersey_number": 19
+  }
+]
