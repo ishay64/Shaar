@@ -85,6 +85,9 @@
   .cell:nth-child(1){animation-delay:0s}.cell:nth-child(2){animation-delay:.08s}.cell:nth-child(3){animation-delay:.16s}.cell:nth-child(4){animation-delay:.24s}.cell:nth-child(5){animation-delay:.32s}.cell:nth-child(6){animation-delay:.4s}
   #endMessage { text-align: center; margin-top: 22px; padding: 20px; border-radius: var(--radius); background: var(--pitch-line); display: none; }
   #endMessage h2 { margin: 0 0 6px; color: var(--gold-bright); font-weight: 900; }
+  #shareBtn { margin-top: 14px; padding: 12px 24px; border-radius: 999px; border: none; background: var(--gold); color: #1c1400; font-weight: 900; font-size: 14px; font-family: inherit; cursor: pointer; }
+  #shareBtn:hover { background: var(--gold-bright); }
+  #shareConfirm { margin-top: 10px; font-size: 13px; color: var(--gold-bright); }
   footer { text-align: center; margin-top: 32px; font-size: 12px; color: var(--cream-dim); opacity: 0.75; }
   @media (max-width: 480px) {
     .col-labels, .guess-card { grid-template-columns: 1.1fr 1fr 0.85fr 0.85fr 0.6fr 0.55fr; }
@@ -142,6 +145,8 @@
   <div id="endMessage">
     <h2 id="endTitle"></h2>
     <p id="endSub"></p>
+    <button id="shareBtn" type="button">📤 שיתוף תוצאה</button>
+    <div id="shareConfirm" style="display:none;">הועתק ללוח! שתפו עם חברים 🎉</div>
   </div>
 
   <footer>נתוני ליגת העל הרשמיים · 14 מועדונים</footer>
@@ -154,7 +159,7 @@ const CLUB_META = {
   'הפועל חיפה': { logoUrl: 'CLUBS/hh.png' },
   'הפועל ירושלים': { logoUrl: 'CLUBS/hj.png' },
   'הפועל פתח תקווה': { logoUrl: 'CLUBS/hpt.png' },
-  'הפועל רמת גן': { logoUrl: 'CLUBS/hrg.png' },
+  'הפועל חדרה': { logoUrl: 'CLUBS/hrg.png' },
   'הפועל תל אביב': { logoUrl: 'CLUBS/hta.png' },
   'בני סכנין': { logoUrl: 'CLUBS/ibs.png' },
   'עירוני קרית שמונה': { logoUrl: 'CLUBS/iks.png' },
@@ -163,6 +168,8 @@ const CLUB_META = {
   'מכבי נתניה': { logoUrl: 'CLUBS/mn.png' },
   'מכבי פתח תקווה': { logoUrl: 'CLUBS/mpt.png' },
   'מכבי תל אביב': { logoUrl: 'CLUBS/mta.png' },
+  'מכבי בני ריינה': { logoUrl: 'CLUBS/mh.png' },
+  'מ.ס. אשדוד': { logoUrl: 'CLUBS/it.png' }
 };
 
 let PLAYERS = [];
@@ -314,6 +321,66 @@ document.getElementById('feedbackSend').addEventListener('click', () => {
 
   feedbackActions.style.display = 'none';
   feedbackThanks.style.display = 'block';
+});
+
+/* ============================================================
+   SHARE RESULT
+   Builds a spoiler-free emoji grid (no player names, just colored
+   squares) so people can post their result without giving away
+   the answer — the same trick Wordle made popular. 🟩 = exact
+   match, 🔼/🔽 = miss on age/number but points toward the answer.
+   ============================================================ */
+const LAUNCH_DATE = new Date(2026, 6, 20); // day 1 of the game — adjust if needed
+
+function dayNumber() {
+  const now = new Date();
+  const todayMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  return Math.round((todayMidnight - LAUNCH_DATE) / 86400000) + 1;
+}
+
+function squareExact(match) { return match ? '🟩' : '⬛'; }
+function squareDirectional(guessVal, targetVal) {
+  if (guessVal === targetVal) return '🟩';
+  return guessVal < targetVal ? '🔼' : '🔽';
+}
+
+function buildShareGrid() {
+  return guesses.map(g => {
+    const club = squareExact(g.associated_club === target.associated_club);
+    const pos = squareExact(g.position === target.position);
+    const nat = squareExact(g.country_of_origin === target.country_of_origin);
+    const age = squareDirectional(g.age, target.age);
+    const num = squareDirectional(g.jersey_number, target.jersey_number);
+    return club + pos + nat + age + num;
+  }).join('\n');
+}
+
+function buildShareText() {
+  const won = guesses.some(g => g.name === target.name && g.associated_club === target.associated_club);
+  const scoreLine = won ? `${guesses.length}/${MAX_GUESSES}` : `X/${MAX_GUESSES}`;
+  const url = location.href.split('?')[0].split('#')[0];
+  return `שער ⚽ #${dayNumber()} — ${scoreLine}\n\n${buildShareGrid()}\n\nנחשו גם אתם: ${url}`;
+}
+
+const shareBtn = document.getElementById('shareBtn');
+const shareConfirm = document.getElementById('shareConfirm');
+
+shareBtn.addEventListener('click', async () => {
+  const text = buildShareText();
+
+  // On mobile, the native share sheet is nicer than a clipboard copy.
+  if (navigator.share) {
+    try { await navigator.share({ text }); return; }
+    catch (e) { /* user cancelled the share sheet — fall through to clipboard */ }
+  }
+
+  try {
+    await navigator.clipboard.writeText(text);
+    shareConfirm.style.display = 'block';
+    setTimeout(() => { shareConfirm.style.display = 'none'; }, 3000);
+  } catch (e) {
+    window.prompt('העתיקו את התוצאה:', text);
+  }
 });
 </script>
 </body>
