@@ -72,14 +72,6 @@
     "jersey_number": 3
   },
   {
-    "name": "אבישי כהן",
-    "associated_club": "מכבי תל אביב",
-    "position": "הגנה",
-    "country_of_origin": "ישראל",
-    "age": 31,
-    "jersey_number": 2
-  },
-  {
     "name": "דור פרץ",
     "associated_club": "מכבי תל אביב",
     "position": "קישור",
@@ -118,14 +110,6 @@
     "country_of_origin": "ישראל",
     "age": 24,
     "jersey_number": 36
-  },
-  {
-    "name": "ערן זהבי",
-    "associated_club": "מכבי תל אביב",
-    "position": "התקפה",
-    "country_of_origin": "ישראל",
-    "age": 38,
-    "jersey_number": 7
   },
   {
     "name": "אושר דוידה",
