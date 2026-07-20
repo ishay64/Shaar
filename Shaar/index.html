@@ -50,8 +50,10 @@
   #guessBtn:disabled { background: var(--pitch-line-light); color: var(--cream-dim); cursor: not-allowed; }
   #guessBtn:not(:disabled):hover { background: var(--gold-bright); }
   #autocomplete { position: absolute; top: 56px; right: 0; left: 96px; background: #ffffff; border-radius: var(--radius); overflow-y: auto; max-height: 260px; box-shadow: 0 10px 24px rgba(0,0,0,0.35); z-index: 10; }
-  .ac-item { padding: 11px 16px; color: #0b3d2e; font-weight: 700; font-size: 14.5px; cursor: pointer; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; }
-  .ac-item span { color: #6b6552; font-weight: 500; font-size: 13px; }
+  .ac-item { padding: 11px 16px; color: #0b3d2e; font-weight: 700; font-size: 14.5px; cursor: pointer; border-bottom: 1px solid #eee; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  .ac-meta { display: flex; align-items: center; gap: 6px; color: #6b6552; font-weight: 500; font-size: 12.5px; flex: none; }
+  .ac-badge { width: 20px; height: 20px; object-fit: contain; flex: none; }
+  .ac-fallback { font-size: 14px; }
   .ac-item:hover, .ac-item.active { background: #f2efe6; }
   #counter { text-align: center; font-size: 13px; color: var(--cream-dim); margin-bottom: 16px; }
   #counter b { color: var(--gold-bright); }
@@ -73,7 +75,7 @@
   .cell span.arrow { font-size: 10px; margin-top: 2px; opacity: 0.85; }
   .cell.match { background: var(--gold); color: #1c1400; }
   .cell.name.winner { background: var(--gold); color: #1c1400; }
-  #targetCard { display: flex; flex-direction: column; align-items: center; margin-bottom: 22px; }
+  #targetCard { display: flex; flex-direction: column; align-items: center; margin-bottom: 14px; }
   #targetPhoto { width: 120px; height: 120px; border-radius: 50%; background: var(--pitch-line); border: 3px solid var(--gold); overflow: hidden; display: flex; align-items: center; justify-content: center; }
   #targetPhoto svg { width: 78%; height: 78%; filter: blur(9px); transition: filter 0.7s ease; }
   .silhouette-part { fill: var(--cream-dim); }
@@ -83,7 +85,7 @@
   #targetCardLabel.revealed { color: var(--gold-bright); font-size: 15px; }
   @keyframes flip { to { transform: rotateX(0deg); } }
   .cell:nth-child(1){animation-delay:0s}.cell:nth-child(2){animation-delay:.08s}.cell:nth-child(3){animation-delay:.16s}.cell:nth-child(4){animation-delay:.24s}.cell:nth-child(5){animation-delay:.32s}.cell:nth-child(6){animation-delay:.4s}
-  #endMessage { text-align: center; margin-top: 22px; padding: 20px; border-radius: var(--radius); background: var(--pitch-line); display: none; }
+  #endMessage { text-align: center; margin-top: 0; margin-bottom: 22px; padding: 20px; border-radius: var(--radius); background: var(--pitch-line); display: none; }
   #endMessage h2 { margin: 0 0 6px; color: var(--gold-bright); font-weight: 900; }
   #shareBtn { margin-top: 14px; padding: 12px 24px; border-radius: 999px; border: none; background: var(--gold); color: #1c1400; font-weight: 900; font-size: 14px; font-family: inherit; cursor: pointer; }
   #shareBtn:hover { background: var(--gold-bright); }
@@ -117,6 +119,13 @@
     <div id="targetCardLabel">שחקן מסתורין — נחשו נכון כדי לחשוף</div>
   </div>
 
+  <div id="endMessage">
+    <h2 id="endTitle"></h2>
+    <p id="endSub"></p>
+    <button id="shareBtn" type="button">📤 שיתוף תוצאה</button>
+    <div id="shareConfirm" style="display:none;">הועתק ללוח! שתפו עם חברים 🎉</div>
+  </div>
+
   <div class="guess-row">
     <input type="text" id="playerInput" placeholder="הקלידו שם שחקן…" autocomplete="off">
     <button id="guessBtn" disabled>נחש</button>
@@ -141,13 +150,6 @@
     <div>שחקן</div><div>קבוצה</div><div>תפקיד</div><div>לאום</div><div>גיל</div><div>מס'</div>
   </div>
   <div id="board"></div>
-
-  <div id="endMessage">
-    <h2 id="endTitle"></h2>
-    <p id="endSub"></p>
-    <button id="shareBtn" type="button">📤 שיתוף תוצאה</button>
-    <div id="shareConfirm" style="display:none;">הועתק ללוח! שתפו עם חברים 🎉</div>
-  </div>
 
   <footer>נתוני ליגת העל הרשמיים · 14 מועדונים</footer>
 </div>
@@ -273,7 +275,12 @@ inputEl.addEventListener('input', () => {
   acEl.innerHTML = '';
   matched.forEach(p => {
     const idx = PLAYERS.indexOf(p);
-    const div = document.createElement('div'); div.className = 'ac-item'; div.innerHTML = `${p.name} <span>${p.associated_club}</span>`;
+    const div = document.createElement('div'); div.className = 'ac-item';
+    const meta = CLUB_META[p.associated_club];
+    const badgeHtml = (meta && meta.logoUrl)
+      ? `<img class="ac-badge" src="${meta.logoUrl}" alt="${p.associated_club}">`
+      : `<span class="ac-fallback">🛡️</span>`;
+    div.innerHTML = `<span>${p.name}</span><span class="ac-meta">${badgeHtml}${p.position}</span>`;
     div.addEventListener('click', () => { inputEl.value = p.name; acEl.style.display = 'none'; guessBtn.disabled = false; inputEl.dataset.selectedIdx = idx; });
     acEl.appendChild(div);
   });
