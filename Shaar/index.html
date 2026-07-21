@@ -16,6 +16,7 @@
     --cream-dim: #cfc9b8;
     --gold: #c9a227;
     --gold-bright: #e0bc4a;
+    --match-green: #34c759;
     --miss-bg: #0e4b38;
     --radius: 10px;
   }
@@ -73,8 +74,8 @@
   .col-labels { padding: 0 2px; font-size: 11px; color: var(--cream-dim); }
   .cell { background: var(--miss-bg); border-radius: 8px; padding: 10px 4px; text-align: center; font-size: 13px; font-weight: 700; line-height: 1.25; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 54px; color: var(--cream); transform: rotateX(90deg); animation: flip 0.5s ease forwards; }
   .cell span.arrow { font-size: 10px; margin-top: 2px; opacity: 0.85; }
-  .cell.match { background: var(--gold); color: #1c1400; }
-  .cell.name.winner { background: var(--gold); color: #1c1400; }
+  .cell.match { background: var(--match-green); color: #0b2f1a; }
+  .cell.name.winner { background: var(--match-green); color: #0b2f1a; }
   #targetCard { display: flex; flex-direction: column; align-items: center; margin-bottom: 14px; }
   #targetPhoto { width: 120px; height: 120px; border-radius: 50%; background: var(--pitch-line); border: 3px solid var(--gold); overflow: hidden; display: flex; align-items: center; justify-content: center; }
   #targetPhoto svg { width: 78%; height: 78%; filter: blur(9px); transition: filter 0.7s ease; }
