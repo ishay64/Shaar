@@ -36,6 +36,41 @@
   #pitchMarkings { position: fixed; inset: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; }
   #pitchMarkings line, #pitchMarkings circle, #pitchMarkings rect { stroke: var(--cream); stroke-opacity: 0.16; stroke-width: 2; fill: none; }
   .wrap { width: 100%; max-width: 760px; position: relative; z-index: 1; }
+
+  #socialBar {
+    position: fixed;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 50;
+  }
+  .social-btn {
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 17px;
+    font-weight: 900;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.35);
+    transition: transform 0.15s;
+    font-family: inherit;
+  }
+  .social-btn:hover { transform: scale(1.1); }
+  .social-btn.wa { background: #25D366; }
+  .social-btn.x { background: #000; font-size: 15px; }
+  .social-btn.fb { background: #1877F2; font-family: Georgia, serif; }
+  .social-btn.link { background: var(--pitch-line); border: 1px solid var(--gold); }
+
+  @media (max-width: 600px) {
+    #socialBar { left: 8px; gap: 8px; }
+    .social-btn { width: 34px; height: 34px; font-size: 14px; }
+  }
   .club-badge { display: inline-block; width: 22px; height: 22px; margin-left: 6px; flex: none; object-fit: contain; vertical-align: middle; }
   .club-fallback { display: inline-block; font-size: 16px; margin-left: 6px; vertical-align: middle; }
   header { text-align: center; margin-bottom: 24px; }
@@ -43,6 +78,8 @@
   h1 { font-weight: 900; font-size: clamp(38px, 9vw, 58px); margin: 0 0 6px; color: var(--cream); text-shadow: 0 3px 0 var(--pitch-line); }
   h1 span { color: var(--gold-bright); }
   .subtitle { color: var(--cream-dim); font-size: 15px; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+  #loadError { max-width: 460px; margin: 0 auto 20px; background: rgba(224,69,58,0.15); border: 1px solid #e0453a; color: var(--cream); font-size: 14px; line-height: 1.6; padding: 14px 16px; border-radius: var(--radius); text-align: center; }
+  #loadError a { color: var(--gold-bright); font-weight: 700; }
   .guess-row { display: flex; gap: 10px; margin-bottom: 20px; position: relative; }
   #playerInput { flex: 1; padding: 14px 16px; border-radius: var(--radius); border: 2px solid var(--pitch-line-light); background: #ffffff; color: #0b3d2e; font-size: 16px; font-weight: 700; outline: none; font-family: inherit; }
   #playerInput:focus { border-color: var(--gold); }
@@ -117,12 +154,24 @@
   <line x1="0" y1="50" x2="100" y2="50" /><circle cx="50" cy="50" r="9" /><circle cx="50" cy="50" r="0.6" fill="var(--cream)" stroke="none" />
   <rect x="30" y="-6" width="40" height="20" /><rect x="38" y="-3" width="24" height="10" /><rect x="30" y="86" width="40" height="20" /><rect x="38" y="93" width="24" height="10" />
 </svg>
+
+<div id="socialBar">
+  <a id="waShare" href="#" target="_blank" rel="noopener" class="social-btn wa" title="שיתוף בוואטסאפ">💬</a>
+  <a id="xShare" href="#" target="_blank" rel="noopener" class="social-btn x" title="שיתוף ב-X">𝕏</a>
+  <a id="fbShare" href="#" target="_blank" rel="noopener" class="social-btn fb" title="שיתוף בפייסבוק">f</a>
+  <button id="linkShare" type="button" class="social-btn link" title="העתקת קישור">🔗</button>
+</div>
+
 <div class="wrap">
   <header>
     <div class="badge">ליגת העל · עונת 2025/26</div>
     <h1>שע<span>ר</span></h1>
     <p class="subtitle">נחשו את שחקן ליגת העל היומי של ישראל.</p>
   </header>
+
+  <div id="loadError" style="display:none;">
+    ⚠️ לא הצלחנו לטעון את נתוני השחקנים. בדקו את החיבור לאינטרנט ונסו <a href="javascript:location.reload()">לרענן את הדף</a>.
+  </div>
 
   <div id="targetCard">
     <div id="targetPhoto">
@@ -177,7 +226,7 @@ const CLUB_META = {
   'הפועל חיפה': { logoUrl: 'CLUBS/hh.png' },
   'הפועל ירושלים': { logoUrl: 'CLUBS/hj.png' },
   'הפועל פתח תקווה': { logoUrl: 'CLUBS/hpt.png' },
-  'הפועל רמת גן': { logoUrl: 'CLUBS/hrg.png' },
+  'הפועל חדרה': { logoUrl: 'CLUBS/hrg.png' },
   'הפועל תל אביב': { logoUrl: 'CLUBS/hta.png' },
   'בני סכנין': { logoUrl: 'CLUBS/ibs.png' },
   'עירוני קרית שמונה': { logoUrl: 'CLUBS/iks.png' },
@@ -201,14 +250,22 @@ function seededIndex(dateStr, listLength) { let hash = 0; for (let i = 0; i < da
 
 // טעינת הנתונים
 fetch('players.json')
-  .then(res => res.json())
+  .then(res => {
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    return res.json();
+  })
   .then(data => {
     PLAYERS = data;
     target = PLAYERS[seededIndex(todayKey(), PLAYERS.length)];
     guessBtn.disabled = false;
     renderPips();
   })
-  .catch(err => console.error("Error loading players:", err));
+  .catch(err => {
+    console.error("Error loading players:", err);
+    document.getElementById('loadError').style.display = 'block';
+    inputEl.disabled = true;
+    guessBtn.disabled = true;
+  });
 
 const inputEl = document.getElementById('playerInput');
 const guessBtn = document.getElementById('guessBtn');
@@ -456,7 +513,6 @@ function buildShareText() {
 
 const shareBtn = document.getElementById('shareBtn');
 const shareConfirm = document.getElementById('shareConfirm');
-
 shareBtn.addEventListener('click', async () => {
   const text = buildShareText();
 
@@ -472,6 +528,34 @@ shareBtn.addEventListener('click', async () => {
     setTimeout(() => { shareConfirm.style.display = 'none'; }, 3000);
   } catch (e) {
     window.prompt('העתיקו את התוצאה:', text);
+  }
+});
+
+/* ============================================================
+   SIDE SOCIAL BAR
+   Unlike the "share result" button (which shares a spoiler-free
+   emoji grid after a round), these links share the game itself —
+   always visible, meant for inviting friends to play at all.
+   ============================================================ */
+function gameShareText() {
+  const url = location.href.split('?')[0].split('#')[0];
+  return { url, text: `בואו לנחש את שחקן ליגת העל של היום ב-שער ⚽ ${url}` };
+}
+
+const { url: gameUrl, text: gameText } = gameShareText();
+document.getElementById('waShare').href = `https://wa.me/?text=${encodeURIComponent(gameText)}`;
+document.getElementById('xShare').href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(gameText)}`;
+document.getElementById('fbShare').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(gameUrl)}`;
+
+document.getElementById('linkShare').addEventListener('click', async () => {
+  const btn = document.getElementById('linkShare');
+  try {
+    await navigator.clipboard.writeText(gameUrl);
+    const original = btn.textContent;
+    btn.textContent = '✅';
+    setTimeout(() => { btn.textContent = original; }, 1500);
+  } catch (e) {
+    window.prompt('העתיקו את הקישור:', gameUrl);
   }
 });
 </script>
