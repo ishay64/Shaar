@@ -38,14 +38,10 @@
   .wrap { width: 100%; max-width: 760px; position: relative; z-index: 1; }
 
   #socialBar {
-    position: fixed;
-    left: 14px;
-    top: 50%;
-    transform: translateY(-50%);
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap: 10px;
-    z-index: 50;
+    margin-bottom: 20px;
   }
   .social-btn {
     width: 40px; height: 40px;
@@ -68,7 +64,7 @@
   .social-btn.link { background: var(--pitch-line); border: 1px solid var(--gold); }
 
   @media (max-width: 600px) {
-    #socialBar { left: 8px; gap: 8px; }
+    #socialBar { gap: 8px; }
     .social-btn { width: 34px; height: 34px; font-size: 14px; }
   }
   .club-badge { display: inline-block; width: 22px; height: 22px; margin-left: 6px; flex: none; object-fit: contain; vertical-align: middle; }
@@ -207,13 +203,6 @@
   <rect x="30" y="-6" width="40" height="20" /><rect x="38" y="-3" width="24" height="10" /><rect x="30" y="86" width="40" height="20" /><rect x="38" y="93" width="24" height="10" />
 </svg>
 
-<div id="socialBar">
-  <a id="waShare" href="#" target="_blank" rel="noopener" class="social-btn wa" title="שיתוף בוואטסאפ">💬</a>
-  <a id="xShare" href="#" target="_blank" rel="noopener" class="social-btn x" title="שיתוף ב-X">𝕏</a>
-  <a id="fbShare" href="#" target="_blank" rel="noopener" class="social-btn fb" title="שיתוף בפייסבוק">f</a>
-  <button id="linkShare" type="button" class="social-btn link" title="העתקת קישור">🔗</button>
-</div>
-
 <div class="wrap">
   <header>
     <button id="infoBtn" type="button" title="איך משחקים?">ⓘ</button>
@@ -221,6 +210,13 @@
     <h1>שע<span>ר</span></h1>
     <p class="subtitle">נחשו את שחקן ליגת העל היומי של ישראל.</p>
   </header>
+
+  <div id="socialBar">
+    <a id="waShare" href="#" target="_blank" rel="noopener" class="social-btn wa" title="שיתוף בוואטסאפ">💬</a>
+    <a id="xShare" href="#" target="_blank" rel="noopener" class="social-btn x" title="שיתוף ב-X">𝕏</a>
+    <a id="fbShare" href="#" target="_blank" rel="noopener" class="social-btn fb" title="שיתוף בפייסבוק">f</a>
+    <button id="linkShare" type="button" class="social-btn link" title="העתקת קישור">🔗</button>
+  </div>
 
   <div id="loadingIndicator">⏳ טוען שחקנים…</div>
 
